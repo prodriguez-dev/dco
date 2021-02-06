@@ -73,11 +73,17 @@ body {
 
 #cta-wrapper {
   position: absolute;
-  top: 322px;
+  bottom: 239px;
   left: 96px;
   width: 114px;
   height: 39px;
   z-index: 5000; }
+
+@media (max-width: 640px) {
+  #cta-wrapper {
+    bottom: 180px;
+  }
+}
 
 #cta-button {
   position: absolute;
