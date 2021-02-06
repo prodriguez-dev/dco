@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Fonts
+-------------------------------------------------- */
+
+@font-face {
+	font-family: "brandon-text-black";
+	src: url("../fonts/brandon-text-webkit/Brandon-Black.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
