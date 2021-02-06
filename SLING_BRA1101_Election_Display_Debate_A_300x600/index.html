@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="ad.size" content="width=300,height=600">
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 	<link type="text/css" rel="stylesheet" href="css/fonts.css" />
 	<link type="text/css" rel="stylesheet" href="css/normalize.css" />
@@ -13,7 +12,7 @@
 <!--content-->
 
 <body>
-	<ft-default id="container">
+	<div id="container">
 		<div id="blackborder"></div>
 		<div class="header" id="header-1"> Can&rsquo;t-miss election<br /> coverage at a<br />can&rsquo;t-miss price.
 		</div>
@@ -72,44 +71,49 @@
 	S932.3,382.7,897.1,382.7z" />
 			<polygon class="st0"
 				points="994.8,553.5 998.3,553.5 998.3,540.2 1003,540.2 1003,537.1 990,537.1 990,540.2 994.8,540.2 " />
-			<polyline class="st0" points="1017.9,547 1019.9,541.8 1019.9,553.5 1023.4,553.5 1023.4,537.2 1018.5,537.2 1014.5,547.4 
+			<polyline class="st0" points="1017.9,547 1019.9,541.8 1019.9,553.5 1023.4,553.5 1023.4,537.2 1018.5,537.2 1014.5,547.4
 	1010.5,537.2 1005.6,537.2 1005.6,553.5 1009.1,553.5 1009.1,541.8 1013.7,553.5 1015.2,553.5 1017.9,547 " />
 		</svg>
-	</ft-default>
+	</div>
 	<!--scripts-->
-	<script src="https://cdn.flashtalking.com/frameworks/js/gsap/3.1.1/gsap.min.js"></script>
-	<script src="https://cdn.flashtalking.com/frameworks/js/gsap/3.1.1/EasePack.min.js"></script>
-	<script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/EasePack.min.js"></script>
+
 	<script src="js/main.js"></script>
 	<script type="text/javascript">
-		container = myFT.$("#blackborder");
-		myFT.applyClickTag(container, 1);
+const bannerWidth = document.getElementById('container').clientWidth;
+const subtleBounceIn = Back.easeOut.config(0.65);
+const subtleBounceOut = Back.easeIn.config(0.65);
 
-		var adURL = window.location.href;
-		substring = "creativepreview";
+document.getElementById("container").style.opacity = 1;
 
-		//ignore adVisibility when previewing in Creative Manager
-		var started = false;
-		var adURL = window.location.href;
-		substring = "creativepreview";
 
-		// PLAY ANIMATION IF: if 85% in view OR viewing locally in browser OR viewing in Creative Preview (Test in Adserve)
-		if (85 <= myFT.visibility.percentInView || window == top || adURL.indexOf(substring) !== -1) {
-			started = true;
-			startAnimation();
-		} else {
-			myFT.on('visibilityupdate', function (e) {
-				console.log(e.percentInView);
-				if (e.percentInView >= 85) {
-					if (!started) {
-						started = true;
-						startAnimation();
+// Helper Logo Blink Function
+function logoBlink() {
+		let logoBlink = new TimelineMax({});
+		logoBlink.staggerTo(".icon", 0.3, { scale: 0, transformOrigin: "50% 50%" }, 0.1, "+=0.5")
+				.staggerTo(".icon", 0.3, { scale: 1, ease: Back.easeOut.config(3.5), transformOrigin: "50% 50%" }, 0.1, "-=0.5");
+		return logoBlink;
+}
 
-						myFT.off('visibilityupdate');
-					}
-				}
-			});
-		}
+// Master Timeline
+const master = gsap.timeline({ delay: 0.5 });
+master.from("#sling-logo", 0.5, { y: -80, ease: subtleBounceIn })
+		.from("#header-1", 0.5, { x: -bannerWidth, ease: subtleBounceIn }, 0)
+		.from("#donkey", 0.65, { x: -105, ease: Power4.easeOut }, "animals-in")
+		.from("#elephant", 0.65, { x: 125, ease: Power4.easeOut }, "animals-in")
+		.from("#cta-wrapper", 0.5, { y: 5, opacity: 0, ease: subtleBounceIn }, "animals-in")
+		.to("#header-1", 1.5, {}) //delay
+		.to("#header-1", 0.5, { x: bannerWidth, ease: subtleBounceOut }, "header-1-out")
+		.to("#donkey", 0.9, { scale: .40, x: 24, y: 12, ease: Power3.easeInOut, transformOrigin: "100% 50%" }, "header-1-out")
+		.to("#elephant", 0.9, { scale: .44, x: -16, y: 25, ease: Power3.easeInOut, transformOrigin: "0% 50%" }, "header-1-out")
+		.from("#header-2", 0.5, { x: -bannerWidth, ease: subtleBounceIn }, "header-1-out+=0.5")
+		.to("#header-1", 1.7, {}) //delay
+		.to("#header-2", 0.5, { x: bannerWidth, ease: subtleBounceOut }, "header-2-out")
+		.from("#header-3", 0.5, { x: -bannerWidth, ease: subtleBounceIn }, "header-3-in")
+		.add(logoBlink(), "header-3-in");
+
+
 	</script>
 </body>
 
