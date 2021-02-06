@@ -73,15 +73,16 @@ body {
 
 #cta-wrapper {
   position: absolute;
-  bottom: 239px;
+  top: 322px;
   left: 96px;
   width: 114px;
   height: 39px;
   z-index: 5000; }
 
 @media (max-width: 640px) {
-  #cta-wrapper {
-    bottom: 160px;
+  .header {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
 
