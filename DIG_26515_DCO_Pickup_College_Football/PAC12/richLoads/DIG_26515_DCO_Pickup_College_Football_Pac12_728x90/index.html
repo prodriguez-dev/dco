@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/fonts.css">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css">
+  <title>728x90 Banner</title>
+</head>
+<!--content-->
+
+<body>
+  <ft-default id="container">
+    <div id="blackborder"></div>
+    <ft-dynamic name="text1" class='header' id="header"></ft-dynamic>
+    <ft-dynamic name="text2" class='subhead' id="subhead"></ft-dynamic>
+
+    <ft-dynamic name="image1" id="logo"></ft-dynamic>
+    <ft-dynamic name="image2" id="tv"></ft-dynamic>
+    <ft-dynamic name="image3" id="pac12-logo"></ft-dynamic>
+    <ft-dynamic name="image4" id="hopper"></ft-dynamic>
+
+
+    <div id="tv-overlay"></div>
+    <div id="gradient"></div>
+
+    <div id="cta-wrapper">
+      <div id="cta-button">
+        <ft-dynamic name="text3" id="cta-text"></ft-dynamic>
+      </div>
+      <div id="cta-button-inset"></div>
+      <ft-dynamic name="text4" id="restrictions"></ft-dynamic>
+    </div>
+  </ft-default>
+
+
+  <!--scripts-->
+  <script src="https://cdn.flashtalking.com/frameworks/js/gsap/3.1.1/gsap.min.js"></script>
+  <!-- <script src="js/GSDevTools.min.js"></script> -->
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    myFT.on("instantads", function () {
+      //get the dynamic value, targeted by the name set in the manifest
+      var dynamicCT = myFT.instantAds.clickthrough_url;
+      var blackborder = myFT.$("#blackborder");
+      //apply the clickTag
+      myFT.applyClickTag(blackborder, 1, dynamicCT);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000108;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#blackborder {
+  position: absolute;
+  width: 298px;
+  height: 248px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }
+
+#container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 0px;
+  left: 0px;
+  cursor: pointer; }
+  #container:hover #cta-button {
+    background-color: #b61428; }
+  #container:active #cta-button {
+    background-color: #880f1e; }
+
+#remote {
+  position: absolute;
+  left: 211px;
+  top: 170px;
+  width: 77px;
+  height: 234px;
+  z-index: 5; }
+  #remote img {
+    width: 100%;
+    height: 100%; }
+
+#logo {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 40px;
+  height: 26px; }
+
+#google-logo {
+  position: absolute;
+  left: 16px;
+  top: 162px;
+  width: 134px;
+  height: 16px; }
+  #google-logo img {
+    width: 100%;
+    height: 100%; }
+
+.header {
+  position: absolute;
+  left: 16px;
+  top: 55px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000108;
+  z-index: 50; }
+
+#subheader {
+  position: absolute;
+  left: 16px;
+  top: 112px;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #E41932;
+  z-index: 50; }
+
+#body {
+  position: absolute;
+  left: 16px;
+  top: 143px;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  color: #1B254B; }
+
+#red-underline-1 {
+  position: absolute;
+  left: 121px;
+  top: 117px;
+  width: 51px;
+  height: 2px;
+  background: #E41932; }
+
+#red-underline-2 {
+  position: absolute;
+  left: 16px;
+  top: 140px;
+  width: 101px;
+  height: 2px;
+  background: #E41932; }
+
+#pop-text-wrapper {
+  position: absolute;
+  left: 164px;
+  top: 160px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #F5F5F6;
+  z-index: 10;
+  position: relative; }
+
+#pop-text {
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000010;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-10deg);
+          transform: translate(-50%, -50%) rotate(-10deg);
+  text-align: center; }
+
+#bg {
+  position: absolute;
+  left: 249px;
+  top: 0;
+  width: 102px;
+  height: 250px;
+  background: #E41932; }
+
+.logo img {
+  width: 100%;
+  height: 100%; }
+
+#univision {
+  position: absolute;
+  left: 16px;
+  top: 164px;
+  width: 19px;
+  height: 15px; }
+
+#telemundo {
+  position: absolute;
+  left: 41px;
+  top: 164px;
+  width: 20px;
+  height: 15px; }
+
+#bein {
+  position: absolute;
+  left: 67px;
+  top: 161px;
+  width: 39px;
+  height: 7px; }
+
+#discovery {
+  position: absolute;
+  left: 112px;
+  top: 162px;
+  width: 32px;
+  height: 8px; }
+
+#xd {
+  position: absolute;
+  left: 150px;
+  top: 163px;
+  width: 19px;
+  height: 12px; }
+
+#cnn {
+  position: absolute;
+  left: 175px;
+  top: 163px;
+  width: 19px;
+  height: 13px; }
+
+#cta-wrapper {
+  position: absolute;
+  top: 194px;
+  left: 12px;
+  width: 126px;
+  height: 42px; }
+
+#cta-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 126px;
+  height: 32px;
+  border-radius: 16px;
+  z-index: 10;
+  background-color: #E41932; }
+
+#cta-text {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 126px;
+  text-align: center; }
+
+#restrictions {
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  line-height: 10px;
+  width: 146px;
+  position: absolute;
+  top: 228px;
+  left: 2px;
+  color: #18182A;
+  text-align: center; }

@@ -1,0 +1,173 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 250px
+$border-width: $banner-width - 2px
+$border-height: $banner-height - 2px
+$page-color: #fff
+$font-primary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_medium', Helvetica, Arial, sans-serif
+$text-color-primary: #ffffff
+$cta-text-color: #171725
+$cta-button-color: #ffffff
+
+//BTN Variables
+$btn-left: 16px
+$btn-top: 182px
+$btn-width: 107px
+$btn-height: 32px
+$btn-font-size: 14px
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $page-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#blackborder
+	position: absolute
+	width: $border-width
+	height: $border-height
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	cursor: pointer
+	&:hover
+		#cta-button
+			background-color: darken($cta-button-color, 10%)
+	&:active
+		#cta-button
+			background-color: darken($cta-button-color, 20%)
+			transform: translateY(3px)
+
+#flag-video
+	position: absolute
+	left: 0px
+	top: 0px
+	width: $banner-width
+	height: $banner-height
+	z-index: -2
+
+#video-overlay
+	position: absolute
+	left: 0px
+	top: 0px
+	width: $banner-width
+	height: $banner-height
+	background: -moz-linear-gradient(45deg, rgba(22,23,36,0.68) 0%, rgba(48,50,74,1) 100%)
+	background: -webkit-linear-gradient(45deg, rgba(22,23,36,0.68) 0%,rgba(48,50,74,1) 100%)
+	background: linear-gradient(45deg, rgba(22,23,36,0.68) 0%,rgba(48,50,74,1) 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad161724', endColorstr='#30324a',GradientType=1 )
+	z-index: 2
+	opacity: 0
+
+#bg
+	position: absolute
+	left: 0px
+	top: 0px
+	width: $banner-width
+	height: $banner-height
+	z-index: -10
+	background: #9d2235
+	background: -moz-linear-gradient(top,  #9d2235 0%, #e41932 100%)
+	background: -webkit-linear-gradient(top,  #9d2235 0%,#e41932 100%)
+	background: linear-gradient(to bottom,  #9d2235 0%,#e41932 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d2235', endColorstr='#e41932',GradientType=0 )
+	opacity: 0
+
+#logo
+	position: absolute
+	left: 16px
+	top: 16px
+	width: 67px
+	height: 22px
+	z-index: 3
+
+.header
+	position: absolute
+	left: 16px
+	top: 54px
+	font-size: 24px
+	line-height: 28px
+	letter-spacing: -0.1px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	width: $banner-width
+	z-index: 10
+
+#gift-wrapper
+	position: absolute
+	left: 148px
+	top: 154px
+	width: 162px
+	transform: rotate(-20deg)
+	img
+		width: 100%
+		height: 100%
+
+#gift-card-price
+	position: absolute
+	top: 9px
+	right: 23px
+	font-size: 14px
+	line-height: 36px
+
+//========= CTA & Logo  =========//	
+#cta-wrapper
+	position: relative
+	top: $btn-top
+	left: $btn-left
+	width: $btn-width
+	height: $btn-height + 10px
+	z-index: 15
+
+#cta-button
+	position: absolute
+	top: 0
+	left: 0
+	width: $btn-width
+	height: $btn-height
+	border-radius: 16px
+	z-index: 10
+	background-color: $cta-button-color
+
+#cta-button-inset
+	position: absolute
+	top: 0
+	left: 0
+	width: $btn-width
+	height: $btn-height
+	border-radius: 16px
+	z-index: 8
+	background-color: #BFBFBF
+	transform: translateY(3px)
+
+#cta-text
+	font-family: $font-primary
+	font-size: $btn-font-size
+	color: #18182A
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	width: $btn-width
+	text-align: center
+
+#restrictions
+	font-family: $font-secondary
+	font-size: 10px
+	width: $btn-width
+	position: absolute
+	top: $btn-height + 6px
+	left: 0
+	color: #ffffff
+	text-align: center

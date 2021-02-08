@@ -1,0 +1,95 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#blackborder {
+  position: absolute;
+  width: 318px;
+  height: 48px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }
+
+#container {
+  position: absolute;
+  width: 320px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  overflow: hidden;
+  background: #fff; }
+  #container:hover #cta-button {
+    background-color: #e6e6e6; }
+  #container:hover #arrow {
+    -webkit-transform: translate(1px, -1px) scale(1.3);
+            transform: translate(1px, -1px) scale(1.3); }
+  #container:active #cta-button {
+    background-color: #cccccc;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px); }
+
+.header {
+  position: absolute;
+  left: 72px;
+  top: 13px;
+  font-size: 12px;
+  z-index: 16;
+  color: #171725; }
+
+#logo {
+  position: absolute;
+  left: 16px;
+  top: 17px;
+  width: 44px;
+  height: 16px;
+  z-index: 20; }
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 50px;
+  background: #F01446; }
+
+#calc-wrapper {
+  position: absolute;
+  top: 30px;
+  left: 72px;
+  z-index: 10000;
+  cursor: pointer;
+  width: 200px; }
+
+#calc-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  color: #E41932;
+  font-size: 12px; }
+
+#arrow {
+  position: absolute;
+  left: 88px;
+  top: -4px;
+  width: 10px;
+  height: 10px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  z-index: 15000; }
+  #arrow img {
+    width: 100%;
+    height: 100%; }
+
+#restrictions {
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  font-size: 7px;
+  position: absolute;
+  top: 39px;
+  left: 260px;
+  color: #696972;
+  z-index: 19; }

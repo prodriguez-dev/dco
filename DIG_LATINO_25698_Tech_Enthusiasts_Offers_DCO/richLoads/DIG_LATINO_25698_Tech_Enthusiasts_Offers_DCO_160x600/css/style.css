@@ -1,0 +1,181 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000108;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#blackborder {
+  position: absolute;
+  width: 158px;
+  height: 598px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }
+
+#container {
+  position: absolute;
+  width: 160px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  cursor: pointer; }
+  #container:hover #cta-button {
+    background-color: #b61428; }
+  #container:active #cta-button {
+    background-color: #880f1e; }
+
+#remote {
+  position: absolute;
+  left: 25px;
+  top: 453px;
+  width: 109px;
+  z-index: 5; }
+  #remote img {
+    width: 100%;
+    height: 100%; }
+
+#logo {
+  position: absolute;
+  left: 16px;
+  top: 32px;
+  width: 68px;
+  height: 44px; }
+
+#google-logo {
+  position: absolute;
+  left: 14px;
+  top: 330px;
+  width: 126px;
+  height: 15px; }
+  #google-logo img {
+    width: 100%;
+    height: 100%; }
+
+.header {
+  position: absolute;
+  left: 14px;
+  top: 93px;
+  font-size: 24px;
+  letter-spacing: -0.1px;
+  line-height: 27px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000108;
+  width: 160px;
+  z-index: 50; }
+
+#subheader {
+  position: absolute;
+  left: 14px;
+  top: 217px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #E41932;
+  z-index: 50; }
+
+#body {
+  position: absolute;
+  left: 14px;
+  top: 271px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  color: #1B254B; }
+
+#red-underline-1 {
+  position: absolute;
+  left: 15px;
+  top: 250px;
+  width: 94px;
+  height: 3px;
+  background: #E41932; }
+
+#red-underline-2 {
+  position: absolute;
+  left: 15px;
+  top: 277px;
+  width: 85px;
+  height: 3px;
+  background: #E41932; }
+
+#pop-text {
+  position: absolute;
+  left: 14px;
+  top: 298px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #E41932; }
+
+#bg {
+  position: absolute;
+  left: 0px;
+  top: 503px;
+  width: 300px;
+  height: 154px;
+  background: #E41932; }
+
+.logo img {
+  width: 100%;
+  height: 100%; }
+
+#univision {
+  position: absolute;
+  left: 14px;
+  top: 313px;
+  width: 31px;
+  height: 24px; }
+
+#telemundo {
+  position: absolute;
+  left: 54px;
+  top: 313px;
+  width: 32px;
+  height: 24px; }
+
+#cnn {
+  position: absolute;
+  left: 95px;
+  top: 313px;
+  width: 31px;
+  height: 21px; }
+
+#cta-wrapper {
+  position: absolute;
+  top: 379px;
+  left: 14px;
+  width: 128px;
+  height: 42px; }
+
+#cta-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 128px;
+  height: 32px;
+  border-radius: 16px;
+  z-index: 10;
+  background-color: #E41932; }
+
+#cta-text {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 128px;
+  text-align: center; }
+
+#restrictions {
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  width: 160px;
+  position: absolute;
+  top: 413px;
+  left: 0;
+  color: #18182A;
+  text-align: center; }

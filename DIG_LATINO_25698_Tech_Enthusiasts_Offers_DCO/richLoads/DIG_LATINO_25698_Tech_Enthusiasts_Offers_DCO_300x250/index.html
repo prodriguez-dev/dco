@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/fonts.css">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css">
+  <title>DIG_LATINO_25698</title>
+</head>
+<!--content-->
+
+<body>
+  <ft-default id="container">
+    <div id="blackborder"></div>
+
+    <ft-dynamic name="text1" class="header" id="header"></ft-dynamic>
+    <ft-dynamic name="text3" class="text" id="subheader"></ft-dynamic>
+    <ft-dynamic name="text4" class="text" id="body"></ft-dynamic>
+
+    <ft-dynamic name="text2" class="header" id="header-2"></ft-dynamic>
+    <div id="red-underline-1" class="underline"></div>
+    <div id="red-underline-2" class="underline"></div>
+    <div id="pop-text-wrapper">
+      <ft-dynamic name="text7" id="pop-text"></ft-dynamic>
+    </div>
+
+    <ft-dynamic name="image1" id="logo"></ft-dynamic>
+    <ft-dynamic name="image2" id="remote"></ft-dynamic>
+    <ft-dynamic name="image9" id="google-logo"></ft-dynamic>
+
+    <div id="logo-container">
+      <ft-dynamic name="image3" id="univision" class="logo"></ft-dynamic>
+      <ft-dynamic name="image4" id="telemundo" class="logo"></ft-dynamic>
+      <ft-dynamic name="image5" id="bein" class="logo"></ft-dynamic>
+      <ft-dynamic name="image6" id="discovery" class="logo"></ft-dynamic>
+      <ft-dynamic name="image7" id="xd" class="logo"></ft-dynamic>
+      <ft-dynamic name="image8" id="cnn" class="logo"></ft-dynamic>
+    </div>
+
+    <div id="bg"></div>
+    <div id="cta-wrapper">
+      <div id="cta-button">
+        <ft-dynamic name="text5" id="cta-text"></ft-dynamic>
+      </div>
+      <!-- <ft-dynamic name="text6" id="restrictions"></ft-dynamic> -->
+    </div>
+    <ft-dynamic name="text6" id="restrictions"></ft-dynamic>
+  </ft-default>
+
+  <!--scripts-->
+  <script src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"></script>
+  <script src="https://cdn.flashtalking.com/frameworks/js/jquery/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    myFT.on("instantads", function () {
+      //get the dynamic value, targeted by the name set in the manifest
+      var dynamicCT = myFT.instantAds.clickthrough_url;
+      var blackborder = myFT.$("#blackborder");
+      //apply the clickTag
+      myFT.applyClickTag(blackborder, 1, dynamicCT);
+    });
+  </script>
+</body>
+
+</html>
