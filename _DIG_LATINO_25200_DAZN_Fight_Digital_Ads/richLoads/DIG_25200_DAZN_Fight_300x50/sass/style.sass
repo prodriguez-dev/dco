@@ -1,0 +1,146 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 50px
+$bg-color: #171725 !important
+$font-primary: 'proximanova_bold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$font-tertiary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$text-color-primary: #FFFFFF
+$text-color-secondary: #171725
+$cta-text-color: #FFFFFF
+$button-background: #e41932
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+	&:hover
+		#cta-button
+			background-color: #b41227
+	&:active
+		#cta-button
+			background-color: #710c19
+
+#background-1
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 1
+
+#background-2
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 1
+
+#background-3
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 1
+
+#background-4
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 1
+
+#background-solo
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 0
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	width: 37px
+	left: 7px
+	top: 50%
+	transform: translate(0,-50%)
+
+#headline-1, #headline-2
+	position: absolute
+	width: 160px
+	top: 50%
+	transform: translate(0,-50%)
+	left: 53px
+	font-size: 13px
+	line-height: 15px
+	letter-spacing: 0.3px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: center
+
+#cta-wrapper
+	position: absolute
+	width: 86px
+	height: 50px
+	right: -2px
+	// background-color: #FFFFFF
+	display: flex
+	justify-content: center
+	align-items: center
+
+#cta-button
+	position: absolute
+	bottom: 15px
+	font-size: 10px
+	font-family: $font-tertiary
+	color: $cta-text-color
+	padding: 7px 6px 6px
+	border-radius: 25px
+	border: 1px solid #FFF
+	background-color: $button-background
+
+#restrictions
+	position: absolute
+	bottom: 5px
+	font-size: 5.5pt
+	font-family: $font-secondary
+	color: $text-color-secondary
+
+#blackborder
+	position: absolute
+	width: 298px
+	height: 48px
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000

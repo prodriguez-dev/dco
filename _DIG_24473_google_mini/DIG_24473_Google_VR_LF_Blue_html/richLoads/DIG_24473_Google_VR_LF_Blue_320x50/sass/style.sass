@@ -1,0 +1,174 @@
+//custom variables
+$banner-width: 320px
+$banner-height: 50px
+$bg-color: #FFFFFF !important
+$font-primary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$text-color-primary: #171725
+$cta-text-color: #FFFFFF
+$button-background: #E41932
+$blue-background: #4285F4
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+	&:hover
+		#cta-button
+			background-color: #CD162D
+	&:active
+		#cta-button
+			background-color: #9F1123
+
+#background
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 0
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	width: 143px
+	left: 8px
+	top: 50%
+	transform: translate(0,-50%)
+	z-index: 1
+
+#google-wrapper
+	position: absolute
+	width: 103px
+	height: 18px
+	left: 49px
+	top: 15px
+	background-color: $bg-color
+	z-index: 2
+
+#headline-1a, #headline-1b, #headline-2a, #headline-2b
+	position: absolute
+	width: 170px
+	left: 80px
+	font-size: 14px
+	line-height: 16px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: center
+
+#headline-1a
+	position: absolute
+	top: 9px
+
+#headline-1b
+	position: absolute
+	top: 25px
+
+#headline-2a
+	position: absolute
+	top: 9px
+
+#headline-2b
+	position: absolute
+	top: 25px
+
+#subhead-a, #subhead-b
+	position: absolute
+	width: 94px
+	left: 80px
+	font-size: 14px
+	line-height: 16px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: center
+
+#subhead-a
+	position: absolute
+	top: 9px
+
+#subhead-b
+	position: absolute
+	top: 25px
+
+#product
+	position: absolute
+	width: 161px
+	height: 50px
+	right: 0px
+	bottom: 0px
+	z-index: 7
+
+#blue-bg
+	position: absolute
+	width: 8px
+	height: 50px
+	right: 0px
+	bottom: 0px
+	background-color: $blue-background
+	z-index: 6
+
+#cta-wrapper
+	position: absolute
+	width: 127px
+	height: 41px
+	right: 0px
+	bottom: 0px
+	background-color: $cta-text-color
+	display: flex
+	justify-content: center
+	align-items: flex-start
+
+#cta-button
+	position: absolute
+	font-size: 11px
+	font-family: $font-primary
+	color: $cta-text-color
+	padding: 7px 16px 6px
+	border-radius: 25px
+	border: 1px solid $bg-color
+	background-color: $button-background
+
+#restrictions
+	position: absolute
+	bottom: 2px
+	font-size: 7pt
+	font-family: $font-secondary
+	color: $text-color-primary
+
+#blackborder
+	position: absolute
+	width: 318px
+	height: 48px
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000

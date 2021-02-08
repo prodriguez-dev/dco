@@ -1,0 +1,210 @@
+//custom variables
+$banner-width: 970px
+$banner-height: 250px
+$bg-color: #F01446 !important
+$font-primary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$text-color-primary: #fff
+$cta-text-color: #000
+$button-background: #fff
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+	&:hover
+		#cta-button
+			background-color: #f5f5f6
+	&:active
+		#cta-button
+			background-color: #000
+			color: #fff
+
+#background-1
+	position: absolute
+	width: 587px
+	height: 250px
+	top: 0px
+	right: 0px
+	z-index: 0
+
+#background-2
+	position: absolute
+	width: 587px
+	height: 250px
+	top: 0px
+	right: 5px
+	z-index: 1
+
+#blackframe
+	position: absolute
+	width: 960px
+	height: 240px
+	top: 0px
+	left: 0px
+	border: 5px solid #000
+	z-index: 2
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	width: 318px
+	top: 183px
+	left: 16px
+
+#google-wrapper
+	position: absolute
+	width: 228px
+	height: 37px
+	left: 106px
+	top: 183px
+	background-color: $bg-color
+	z-index: 6
+
+#headline-1
+	position: absolute
+	width: 283px
+	height: 131px
+	left: 47px
+	top: 45px
+	font-size: 32px
+	line-height: 34px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: center
+	display: flex
+	justify-content: flex-start
+	align-items: flex-start
+
+#headline-2
+	position: absolute
+	width: 283px
+	height: 131px
+	left: 47px
+	top: 45px
+	font-size: 32px
+	line-height: 34px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: center
+	display: flex
+	justify-content: flex-start
+	align-items: flex-start
+
+#user
+	position: absolute
+	width: 30px
+	height: 30px
+	top: 30px
+	left: 769px
+	z-index: 3
+
+#query
+	position: absolute
+	width: 316px
+	height: 52px
+	top: 58px
+	left: 482px
+	z-index: 2
+
+#google-icon
+	position: absolute
+	width: 30px
+	height: 30px
+	top: 132px
+	left: 484px
+	z-index: 1
+
+#answer
+	position: absolute
+	width: 174px
+	height: 52px
+	top: 162px
+	left: 484px
+	z-index: 0
+
+#footer-wrapper
+	position: absolute
+	width: 386px
+	height: 251px
+	left: 0px
+	top: 0px
+	background-color: $bg-color
+	z-index: 3
+
+#product
+	position: absolute
+	width: 66px
+	height: 136px
+	left: 351px
+	bottom: 0px
+	z-index: 4
+
+#cta-wrapper
+	position: absolute
+	width: 179px
+	height: 69px
+	left: 161px
+	bottom: 0px
+	display: flex
+	justify-content: center
+	align-items: flex-start
+	z-index: 8
+
+#cta-button
+	position: absolute
+	font-size: 16px
+	font-family: $font-primary
+	color: $cta-text-color
+	padding: 10px 28px
+	border-radius: 25px
+	border: 1px solid $bg-color
+	background-color: $button-background
+
+#restrictions
+	position: absolute
+	bottom: 15px
+	font-size: 8pt
+	font-family: $font-secondary
+	color: $text-color-primary
+
+#google-disclaimer
+	position: absolute
+	top: 223px
+	left: 756px
+	font-size: 12px
+	line-height: 14px
+	font-family: $font-secondary
+	color: $text-color-primary
+
+#blackborder
+	position: absolute
+	width: 968px
+	height: 248px
+	left: 0px
+	top: 0px
+	border: 1px solid #000
+	z-index: 50000

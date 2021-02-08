@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/fonts.css">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css">
+  <title>DIG 300x600 Banner</title>
+</head>
+<!--content-->
+
+<body>
+  <ft-default id="container">
+    <div id="blackborder"></div>
+    <div id="google-wrapper"></div>
+    <div id="top">
+      <ft-dynamic name="image1" id="logo"></ft-dynamic>
+      <ft-dynamic name="text1" id="headline-1"></ft-dynamic>
+      <ft-dynamic name="text2" id="headline-2"></ft-dynamic>
+      <ft-dynamic name="image5" id="user"></ft-dynamic>
+      <ft-dynamic name="image6" id="query"></ft-dynamic>
+      <ft-dynamic name="image7" id="google-icon"></ft-dynamic>
+      <ft-dynamic name="image8" id="answer"></ft-dynamic>
+      <ft-dynamic name="text5" id="google-disclaimer"></ft-dynamic>
+    </div>
+    <div id="cta-wrapper">
+      <ft-dynamic name="text3" id="cta-button"></ft-dynamic>
+      <ft-dynamic name="text4" id="restrictions"></ft-dynamic>
+    </div>
+    <div id="red-1"></div>
+    <div id="footer-wrapper"></div>
+    <ft-dynamic name="image4" id="product"></ft-dynamic>
+    <div id="red-2"></div>
+    <div id="blackframe"></div>
+    <ft-dynamic name="image3" id="background-2"></ft-dynamic>
+    <ft-dynamic name="image2" id="background-1"></ft-dynamic>
+  </ft-default>
+
+  <!--scripts-->
+  <script src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"></script>
+  <script src="https://cdn.flashtalking.com/frameworks/js/jquery/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    myFT.on("instantads", function () {
+      //get the dynamic value, targeted by the name set in the manifest
+      var dynamicCT = myFT.instantAds.clickthrough_url;
+      var blackborder = myFT.$("#blackborder");
+      //apply the clickTag
+      myFT.applyClickTag(blackborder, 1, dynamicCT);
+    });
+  </script>
+</body>
+
+</html>

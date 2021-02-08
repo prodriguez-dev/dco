@@ -1,0 +1,234 @@
+body {
+  font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  background-color: #FFFFFF !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
+  #container:hover #cta-button {
+    background-color: #0010b7;
+    color: white; }
+  #container:active #cta-button {
+    background-color: #000a6b;
+    -webkit-transform: translate(0px, 3px);
+            transform: translate(0px, 3px);
+    color: white; }
+
+#blue-top {
+  position: absolute;
+  left: 0px;
+  width: 90px;
+  height: 50px;
+  background: #0015EA;
+  z-index: -5; }
+
+#thermostat {
+  position: absolute;
+  top: 3px;
+  left: 173px;
+  z-index: 2; }
+  #thermostat img {
+    width: 100%;
+    height: 100%; }
+
+#lightbulb {
+  position: absolute;
+  top: 4px;
+  left: 103px;
+  z-index: 2; }
+  #lightbulb img {
+    width: 100%;
+    height: 100%; }
+
+#google-mini {
+  position: absolute;
+  top: 25px;
+  left: 247px;
+  z-index: 2; }
+  #google-mini img {
+    width: 100%;
+    height: 100%; }
+
+#lightbulb-2 {
+  position: absolute;
+  top: -7px;
+  left: 79px;
+  z-index: 2; }
+  #lightbulb-2 img {
+    width: 100%;
+    height: 100%; }
+
+#google-mini-2 {
+  position: absolute;
+  top: -12px;
+  left: 109px;
+  z-index: 2; }
+  #google-mini-2 img {
+    width: 100%;
+    height: 100%; }
+
+#top {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  z-index: 5; }
+
+#beacon {
+  position: absolute;
+  width: 17px;
+  top: 17px;
+  left: 12px;
+  z-index: 10; }
+
+#logo {
+  position: absolute;
+  width: 47px;
+  height: auto;
+  top: 20px;
+  left: 32px;
+  z-index: 10; }
+  #logo img {
+    width: 100%;
+    height: 100%; }
+
+#headline {
+  position: absolute;
+  width: 168px;
+  left: 101px;
+  height: 28px;
+  top: 11px;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  text-align: Left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+          align-items: left;
+  z-index: 2; }
+
+#headline-2 {
+  position: absolute;
+  width: 181px;
+  left: 101px;
+  height: 28px;
+  top: 5px;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  text-align: Left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+          align-items: left;
+  z-index: 2; }
+
+#subhead {
+  position: absolute;
+  width: 199px;
+  height: 17px;
+  left: 101px;
+  top: 32px;
+  font-size: 12px;
+  line-height: 17px;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #171725;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+          align-items: left;
+  z-index: 2; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 130px;
+  height: 28px;
+  left: 167px;
+  top: 8px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+          align-items: flex-start; }
+
+#cta-button {
+  position: absolute;
+  font-size: 12px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: white;
+  padding: 8px 16px 7px;
+  border-radius: 25px;
+  background-color: #0015EA; }
+
+#cta-button-under {
+  position: absolute;
+  z-index: -1;
+  font-size: 12px;
+  top: 3px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: white;
+  padding: 8px 16px 7px;
+  border-radius: 25px;
+  background-color: #000A6B; }
+
+#restrictions {
+  position: absolute;
+  font-size: 8pt;
+  top: 30px;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #171725; }
+
+#blackborder {
+  position: absolute;
+  width: 298px;
+  height: 48px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }
+
+.bold {
+  font-family: "proximanova_extrabold";
+    font-family-display: block;
+    font-family-margin: 4px 0 0 0; }
+
+/* confetti canvas  */
+#particle-canvas {
+  display: block;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }

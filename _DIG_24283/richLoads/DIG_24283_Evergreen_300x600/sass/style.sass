@@ -1,0 +1,131 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 600px
+$bg-color: #fff !important
+$font-primary: 'proximanova_bold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$font-tertiary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$text-color-primary: #000
+$text-color-secondary: #fff
+$cta-text-color: #fff
+$button-background: #f01446
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+
+#background
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 0
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	width: 62px
+	top: 28px
+
+#headline
+	position: absolute
+	width: 255px
+	height: 85px
+	top: 75px
+	font-size: 24px
+	line-height: 28px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: center
+
+#text-wrapper
+	position: absolute
+	width: 300px
+	height: 176px
+	bottom: 0px
+	background-color: $cta-text-color
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 1
+
+#subhead
+	position: absolute
+	top: 438px
+	width: 200px
+	height: 70px
+	font-size: 24px
+	line-height: 26px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: center
+
+#cta-wrapper
+	position: absolute
+	width: 300px
+	right: 0px
+	bottom: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+
+#cta-button
+	position: absolute
+	bottom: 42px
+	font-size: 16px
+	font-family: $font-tertiary
+	color: $cta-text-color
+	padding: 10px 28px
+	border-radius: 25px
+	border: 1px solid $bg-color
+	background-color: $button-background
+
+#container:visited #cta-button
+	background-color: $button-background
+
+#container:hover #cta-button
+	background-color: #cc113c
+
+#container:active #cta-button
+	background-color: #9c0d2e
+
+#restrictions
+	position: absolute
+	bottom: 26px
+	font-size: 8pt
+	font-family: $font-secondary
+	color: $text-color-primary
+
+#blackborder
+	position: absolute
+	width: 298px
+	height: 598px
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000

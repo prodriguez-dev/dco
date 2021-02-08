@@ -1,0 +1,141 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  background-color: #F01446 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  background-color: #F01446 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #container:hover #cta-button {
+    background-color: #F5F5F6; }
+  #container:active #cta-button {
+    background-color: #000000;
+    color: #FFFFFF; }
+
+#background {
+  position: absolute;
+  width: 886px;
+  height: 90px;
+  top: 0px;
+  right: 0px;
+  z-index: 0; }
+
+#top {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5; }
+
+#logo {
+  position: absolute;
+  width: 65px;
+  left: 32px;
+  top: 50%;
+  transform: translate(0, -50%); }
+
+#headline-1 {
+  position: absolute;
+  width: 211px;
+  height: 52px;
+  left: 128px;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 58px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+#headline-2 {
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  left: 128px;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+#ornament {
+  position: absolute;
+  width: 55px;
+  height: 39px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2; }
+
+#product {
+  position: absolute;
+  width: 200px;
+  height: 64px;
+  right: 0px;
+  top: 0px;
+  z-index: 1; }
+
+#google {
+  position: absolute;
+  width: 105px;
+  height: 16px;
+  top: 37px;
+  left: 488px; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 107px;
+  height: 90px;
+  right: 267px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#cta-button {
+  position: absolute;
+  font-size: 13px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  padding: 9px 22px 8px;
+  border-radius: 25px;
+  border: 1px solid #b25e39;
+  background-color: #FFFFFF; }
+
+#restrictions {
+  position: absolute;
+  bottom: 15px;
+  font-size: 8pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  text-align: center; }
+
+#blackborder {
+  position: absolute;
+  width: 726px;
+  height: 88px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }

@@ -1,0 +1,147 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  background-color: #F5F5F6 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  background-color: #F5F5F6 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #container:hover #cta-button {
+    background-color: #CD162D; }
+  #container:active #cta-button {
+    background-color: #9F1123; }
+
+#top {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5; }
+
+#logo {
+  position: absolute;
+  width: 72px;
+  height: 27px;
+  left: 19px;
+  top: 50%;
+  transform: translate(0, -50%); }
+
+#headline-1, #headline-2, #headline-3 {
+  position: absolute;
+  left: 354px;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 20px;
+  line-height: 22px;
+  color: #171725;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F5F5F6 !important;
+  padding: 3px 4px;
+  border-radius: 4px; }
+
+#gift-1 {
+  position: absolute;
+  width: 94px;
+  height: 76px;
+  top: 14px;
+  left: 116px; }
+
+#gift-2 {
+  position: absolute;
+  width: 98px;
+  height: 79px;
+  top: 11px;
+  left: 229px; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 120px;
+  height: 61px;
+  left: 589px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+#cta-button {
+  position: absolute;
+  font-size: 13px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  padding: 9px 22px 8px;
+  border-radius: 25px;
+  border: 1px solid #F5F5F6 !important;
+  background-color: #E41932; }
+
+#restrictions {
+  position: absolute;
+  padding-top: 33px;
+  font-size: 8pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #171725; }
+
+#blackborder {
+  position: absolute;
+  width: 726px;
+  height: 88px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }
+
+.confetti-small-gold {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: url(../images/DIG_24942_Holiday_confetti_small_gold.svg);
+  background-size: 100% 100%;
+  z-index: 1; }
+
+.confetti-small-red {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: url(../images/DIG_24942_Holiday_confetti_small_red.svg);
+  background-size: 100% 100%;
+  z-index: 1; }
+
+.confetti-medium {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url(../images/DIG_24942_Holiday_confetti_medium_gold.svg);
+  background-size: 100% 100%;
+  z-index: 1; }
+
+.confetti-large {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url(../images/DIG_24942_Holiday_confetti_big_red.svg);
+  background-size: 100% 100%;
+  z-index: 1; }
+
+.confetti-large-gold {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url(../images/DIG_24942_Holiday_confetti_big_gold.svg);
+  background-size: 100% 100%;
+  z-index: 1; }

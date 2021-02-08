@@ -1,0 +1,146 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #C02336 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  background-color: #C02336 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#background-1 {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  z-index: 0; }
+
+#background-2 {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  z-index: 0; }
+
+#top {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; }
+
+#logo {
+  position: absolute;
+  width: 60px;
+  left: 15px; }
+
+#headline-1 {
+  position: absolute;
+  left: 96px;
+  width: 210px;
+  height: 66px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left; }
+
+#subhead {
+  position: absolute;
+  width: 172px;
+  right: 0px;
+  top: 8px;
+  font-size: 14px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000;
+  text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#headline-2 {
+  position: absolute;
+  left: 96px;
+  width: 210px;
+  height: 66px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 159px;
+  height: 47px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+#cta-button {
+  position: absolute;
+  font-size: 13px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 9px 22px 8px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  background-color: #f01446; }
+
+#container:visited #cta-button {
+  background-color: #f01446; }
+
+#container:hover #cta-button {
+  background-color: #cc113c; }
+
+#container:active #cta-button {
+  background-color: #9c0d2e; }
+
+#restrictions {
+  position: absolute;
+  bottom: 2px;
+  font-size: 8pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #000;
+  text-align: center; }
+
+#textarea {
+  position: absolute;
+  width: 172px;
+  height: 90px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #fff;
+  z-index: 3; }
+
+#blackborder {
+  position: absolute;
+  width: 726px;
+  height: 88px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }

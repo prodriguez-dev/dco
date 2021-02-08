@@ -1,0 +1,144 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #container img {
+    width: 100%;
+    height: auto; }
+  #container:visited #cta-button {
+    background-color: #e41932; }
+  #container:hover #cta-button {
+    background-color: #b61428; }
+  #container:active #cta-button {
+    background-color: #710c19; }
+
+#background {
+  position: absolute;
+  width: 728px;
+  height: 463px;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  background: #c02236;
+  z-index: -5; }
+
+#white-base {
+  background: #ffffff;
+  width: 172px;
+  height: 90px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute; }
+
+#tv-bg {
+  position: absolute;
+  top: 8px;
+  left: 336px;
+  z-index: -4;
+  width: 182px;
+  height: 82px; }
+
+#tv-video {
+  position: absolute;
+  width: 129px;
+  height: 74px;
+  top: 10px;
+  left: 363px;
+  z-index: 10; }
+
+#top {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5; }
+
+#logo {
+  position: absolute;
+  width: 55px;
+  top: 34px;
+  left: 22px; }
+
+#headline {
+  position: absolute;
+  width: 225px;
+  height: 90px;
+  top: 0px;
+  left: 106px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+#subhead {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 172px;
+  height: 44px;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+#cta-wrapper {
+  right: 0px;
+  position: absolute;
+  width: 172px;
+  height: 45px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start; }
+
+#cta-button {
+  position: absolute;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #e41932;
+  font-size: 14px;
+  border-radius: 32px;
+  padding: 9px 22px 8px;
+  z-index: 10; }
+
+#restrictions {
+  position: absolute;
+  top: 34px;
+  font-size: 7pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #000; }
+
+#blackborder {
+  position: absolute;
+  width: 726px;
+  height: 88px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }

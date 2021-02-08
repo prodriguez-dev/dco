@@ -1,0 +1,141 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  background-color: #F01446 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 0px;
+  left: 0px;
+  background-color: #F01446 !important;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
+  #container:hover #cta-button {
+    background-color: #F5F5F6; }
+  #container:active #cta-button {
+    background-color: #000000;
+    color: #FFFFFF; }
+
+#background {
+  position: absolute;
+  width: 410px;
+  height: 250px;
+  top: 0px;
+  right: 0px;
+  z-index: 0; }
+
+#top {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  z-index: 5; }
+
+#logo {
+  position: absolute;
+  width: 56px;
+  top: 16px; }
+
+#headline-1 {
+  position: absolute;
+  width: 280px;
+  height: 71px;
+  top: 52px;
+  font-size: 74px;
+  line-height: 90px;
+  letter-spacing: -0.31px;
+  color: #FFFFFF;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  text-align: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
+
+#headline-2 {
+  position: absolute;
+  width: 268px;
+  height: 84px;
+  left: 16px;
+  top: 52px;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center; }
+
+#product {
+  position: absolute;
+  width: 202px;
+  height: 69px;
+  right: 0px;
+  top: 129px; }
+
+#google {
+  position: absolute;
+  width: 105px;
+  height: 16px;
+  top: 220px;
+  left: 16px; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 107px;
+  height: 99px;
+  left: 16px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+          align-items: flex-start; }
+
+#cta-button {
+  position: absolute;
+  font-size: 14px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  padding: 8px 22px 7px;
+  border-radius: 25px;
+  border: 1px solid #b25e39;
+  background-color: #FFFFFF; }
+
+#restrictions {
+  position: absolute;
+  padding-top: 34px;
+  font-size: 8pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #FFFFFF; }
+
+#blackborder {
+  position: absolute;
+  width: 298px;
+  height: 248px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }

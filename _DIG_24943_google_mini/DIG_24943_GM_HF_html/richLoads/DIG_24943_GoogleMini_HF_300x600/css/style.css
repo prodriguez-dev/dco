@@ -1,0 +1,219 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #171725;
+  background-color: #FFFFFF !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  background-color: #FFFFFF !important;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center; }
+  #container:hover #cta-button {
+    background-color: #CD162D; }
+  #container:active #cta-button {
+    background-color: #9F1123; }
+
+#background-1 {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  z-index: 0; }
+
+#background-2 {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  z-index: 1; }
+
+#top {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  z-index: 5; }
+
+#logo {
+  position: absolute;
+  width: 65px;
+  top: 32px; }
+
+#headline-1, #headline-2 {
+  position: absolute;
+  width: 268px;
+  height: 36px;
+  left: 16px;
+  top: 124px;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.2px;
+  color: #171725;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center; }
+
+#headline-3 {
+  position: absolute;
+  width: 268px;
+  height: 144px;
+  left: 16px;
+  top: 124px;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center; }
+
+#tv-bg {
+  position: absolute;
+  width: 300px;
+  height: 276px;
+  right: 0px;
+  top: 167px;
+  z-index: 0;
+  background-image: url("../images/DIG_24943_GoogleMini_HF_300x600_tv.png"); }
+
+#tv-1, #tv-2 {
+  position: absolute;
+  width: 284px;
+  height: 222px;
+  right: 0px;
+  top: 194px;
+  z-index: 1; }
+
+#product-1 {
+  position: absolute;
+  width: 230px;
+  height: 65px;
+  right: 0px;
+  top: 469px; }
+
+#product-2 {
+  position: absolute;
+  width: 260px;
+  height: 88px;
+  right: 0px;
+  top: 410px; }
+
+#user-1, #user-2 {
+  position: absolute;
+  width: 90px;
+  height: 89px;
+  right: 0px;
+  top: 349px;
+  z-index: 2; }
+
+#bubble-1, #bubble-2 {
+  position: absolute;
+  width: 272px;
+  height: 84px;
+  top: 396px;
+  right: 9px;
+  z-index: 3; }
+
+#command-1, #command-2 {
+  position: absolute;
+  width: 210px;
+  height: 23px;
+  top: 418px;
+  left: 53px;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-family: "Google Sans", Helvetica, Arial, sans-serif;
+  color: #5F6368;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  z-index: 4; }
+
+#google {
+  position: absolute;
+  width: 182px;
+  height: 25px;
+  top: 547px; }
+
+#google-disclaimer {
+  position: absolute;
+  width: 126px;
+  bottom: 16px;
+  left: 16px;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #171725; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 143px;
+  height: 300px;
+  left: 16px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+          align-items: flex-start; }
+
+#cta-button {
+  position: absolute;
+  font-size: 16px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #4a4a54;
+  background-color: #E41932; }
+
+#restrictions {
+  position: absolute;
+  padding-top: 42px;
+  font-size: 8pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #FFFFFF; }
+
+#blackborder {
+  position: absolute;
+  width: 298px;
+  height: 598px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }

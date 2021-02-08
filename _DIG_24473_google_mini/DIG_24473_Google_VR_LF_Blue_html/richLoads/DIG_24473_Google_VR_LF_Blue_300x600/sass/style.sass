@@ -1,0 +1,168 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 600px
+$bg-color: #FFFFFF !important
+$font-primary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$text-color-primary: #171725
+$cta-text-color: #FFFFFF
+$button-background: #E41932
+$blue-background: #4285F4
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+	&:hover
+		#cta-button
+			background-color: #CD162D
+	&:active
+		#cta-button
+			background-color: #9F1123
+
+#background
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 0
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	width: 236px
+	top: 16px
+	left: 16px
+
+#headline-1a, #headline-1b, #headline-1c, #headline-2a, #headline-2b, #headline-2c,  #headline-2d
+	position: absolute
+	width: 268px
+	left: 16px
+	font-size: 32px
+	line-height: 34px
+	letter-spacing: -0.2px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: center
+
+#headline-1a
+	position: absolute
+	top: 74px
+
+#headline-1b
+	position: absolute
+	top: 108px
+
+#headline-1c
+	position: absolute
+	top: 142px
+
+#headline-2a
+	position: absolute
+	top: 74px
+
+#headline-2b
+	position: absolute
+	top: 108px
+
+#headline-2c
+	position: absolute
+	top: 142px
+
+#headline-2d
+	position: absolute
+	top: 176px
+
+#subhead
+	position: absolute
+	width: 150px
+	height: 52px
+	left: 16px
+	top: 222px
+	font-size: 24px
+	line-height: 26px
+	font-family: $font-secondary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: flex-start
+
+#product
+	position: absolute
+	width: 300px
+	height: 395px
+	top: 205px
+	z-index: 2
+
+#blue-bg
+	position: absolute
+	width: 300px
+	height: 16px
+	left: 0px
+	bottom: 0px
+	background-color: $blue-background
+	z-index: 1
+
+#cta-wrapper
+	position: absolute
+	width: 140px
+	height: 262px
+	left: 16px
+	bottom: 0px
+	display: flex
+	justify-content: center
+	align-items: flex-start
+
+#cta-button
+	position: absolute
+	font-size: 16px
+	font-family: $font-primary
+	color: $cta-text-color
+	padding: 10px 28px
+	border-radius: 25px
+	border: 1px solid $bg-color
+	background-color: $button-background
+
+#restrictions
+	position: absolute
+	padding-top: 42px
+	font-size: 8pt
+	font-family: $font-secondary
+	color: $text-color-primary
+
+#blackborder
+	position: absolute
+	width: 298px
+	height: 598px
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000

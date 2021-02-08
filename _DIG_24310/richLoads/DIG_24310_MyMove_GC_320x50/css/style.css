@@ -1,0 +1,140 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000;
+  background-color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  width: 320px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  background-color: #fff !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center; }
+
+#top {
+  position: absolute;
+  width: 320px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  z-index: 5; }
+
+#logo {
+  position: absolute;
+  width: 44px;
+  top: 1px;
+  right: 23px; }
+
+#giftcard {
+  position: absolute;
+  width: 72px;
+  top: 0px;
+  left: 6px; }
+
+#headline-1 {
+  position: absolute;
+  width: 150px;
+  left: 86px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000;
+  text-align: left; }
+
+#headline-2 {
+  position: absolute;
+  width: 150px;
+  top: 6px;
+  left: 86px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000;
+  text-align: left; }
+
+#asterisk {
+  position: absolute;
+  top: 21px;
+  left: 217px;
+  font-size: 12px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #000; }
+
+#disclaimer {
+  position: absolute;
+  left: 86px;
+  bottom: 0px;
+  font-size: 8pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #000; }
+
+#cta-wrapper {
+  position: absolute;
+  width: 92px;
+  height: 50px;
+  right: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center; }
+
+#cta-button {
+  position: absolute;
+  top: 55%;
+  -webkit-transform: translate(0, -45%);
+          transform: translate(0, -45%);
+  font-size: 11px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 5px 8px 4px;
+  border-radius: 25px;
+  border: 1px solid #fff !important;
+  background-color: #f01446; }
+
+#container:visited #cta-button {
+  background-color: #f01446; }
+
+#container:hover #cta-button {
+  background-color: #cc113c; }
+
+#container:active #cta-button {
+  background-color: #9c0d2e; }
+
+#restrictions {
+  position: absolute;
+  bottom: 0px;
+  font-size: 7pt;
+  font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
+  color: #000; }
+
+#blackborder {
+  position: absolute;
+  width: 318px;
+  height: 48px;
+  border: 1px solid #000;
+  z-index: 50000; }

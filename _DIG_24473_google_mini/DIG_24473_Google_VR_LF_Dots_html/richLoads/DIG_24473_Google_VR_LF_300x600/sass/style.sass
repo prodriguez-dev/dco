@@ -1,0 +1,212 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 600px
+$bg-color: #fff !important
+$font-primary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$text-color-primary: #696972
+$cta-text-color: #fff
+$button-background: #e41932
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+	&:hover
+		#cta-button
+			background-color: #cd162d
+	&:active
+		#cta-button
+			background-color: #9f1123
+
+#background
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 0
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	width: 271px
+	bottom: 12px
+	z-index: 3
+
+#dish-wrapper
+	position: absolute
+	width: 73px
+	height: 30px
+	left: 15px
+	top: 554px
+	background-color: $bg-color
+	z-index: 4
+
+#line-wrapper
+	position: absolute
+	width: 7px
+	height: 30px
+	left: 92px
+	top: 553px
+	background-color: $bg-color
+	z-index: 4
+
+#google-wrapper
+	position: absolute
+	width: 200px
+	height: 30px
+	left: 108px
+	top: 553px
+	background-color: $bg-color
+	z-index: 4
+
+#headline-1
+	position: absolute
+	width: 268px
+	height: 108px
+	top: 32px
+	left: 16px
+	font-size: 32px
+	line-height: 36px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: flex-start
+
+#headline-2
+	position: absolute
+	width: 268px
+	height: 108px
+	top: 32px
+	left: 16px
+	font-size: 32px
+	line-height: 36px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: flex-start
+
+#subhead
+	position: absolute
+	width: 249px
+	height: 24px
+	left: 16px
+	top: 150px
+	font-size: 20px
+	line-height: 24px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: left
+	display: flex
+	justify-content: flex-start
+	align-items: flex-start
+
+#product
+	position: absolute
+	width: 116px
+	height: 304px
+	top: 427px
+	z-index: 1
+
+#dot-1
+	position: absolute
+	width: 15px
+	height: 15px
+	left: 101px
+	top: 218px
+
+#dot-2
+	position: absolute
+	width: 15px
+	height: 15px
+	left: 128px
+	top: 218px
+
+#dot-3
+	position: absolute
+	width: 15px
+	height: 15px
+	left: 156px
+	top: 218px
+
+#dot-4
+	position: absolute
+	width: 15px
+	height: 15px
+	left: 183px
+	top: 218px
+
+#footer-wrapper
+	position: absolute
+	width: 300px
+	height: 58px
+	bottom: 0px
+	background-color: $cta-text-color
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 2
+
+#cta-wrapper
+	position: absolute
+	width: 179px
+	height: 52px
+	right: 2px
+	bottom: 0px
+	display: flex
+	justify-content: center
+	align-items: flex-start
+
+#cta-button
+	position: absolute
+	font-size: 16px
+	font-family: $font-primary
+	color: $cta-text-color
+	padding: 10px 28px
+	border-radius: 25px
+	border: 1px solid $bg-color
+	background-color: $button-background
+
+#restrictions
+	position: absolute
+	bottom: 1px
+	font-size: 8pt
+	font-family: $font-secondary
+	color: $text-color-primary
+
+#blackborder
+	position: absolute
+	width: 298px
+	height: 598px
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000
