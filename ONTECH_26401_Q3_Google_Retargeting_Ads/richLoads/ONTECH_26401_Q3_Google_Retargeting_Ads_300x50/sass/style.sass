@@ -1,0 +1,153 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 50px
+$page-color: #F5F5F6 !important
+$font-black: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-medium: 'proximanova_medium', Helvetica, Arial, sans-serif
+$font-thin: 'proximanova_thin', Helvetica, Arial, sans-serif
+$text-color-primary: #454550
+$cta-text-color: #0015EA
+
+body
+	color: $text-color-primary
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#container
+	position: absolute
+	top: 0px
+	left: 0px
+	width: $banner-width
+	height: $banner-height
+	background-color: $page-color
+	z-index: 0
+	&:hover
+		cursor: pointer
+
+#background
+	position: absolute
+	width: $banner-width
+	left: 0px
+	top: 374px
+	width: 160px
+	height: 226px
+	z-index: 1
+
+#beacon
+	position: absolute
+	left: 8px
+	top: 16px
+	width: 11px
+	height: 16.13px
+	z-index: 20
+
+#logo
+	position: absolute
+	left: 23px
+	top: 18.75px
+	width: 40px
+	height: 16.13px
+
+#google-logo
+	position: absolute
+	left: 76px
+	top: 16.88px
+	width: 43px
+	height: 17px
+	img
+		width: 100%
+		height: 100%
+
+#divider
+	position: absolute
+	left: 69.16px
+	top: 17px
+	width: .5px
+	height: 17px
+	background-color: #B9B8BC
+
+#headline
+	position: absolute
+	left: 153px
+	top: 8px
+	font-family: $font-black
+	font-size: 15px
+	line-height: 17px
+
+#subhead
+	position: absolute
+	left: 152px
+	top: 4px
+	font-family: $font-medium
+	font-size: 10px
+	line-height: 12px
+
+#container:visited #cta
+	color: $cta-text-color
+
+#cta-wrapper
+	position: relative
+	left: 152px
+	top: 34px
+	width: 64px
+	height: 12px
+
+#cta
+	position: absolute
+	top: 0px
+	left: 0px
+	font-size: 10px
+	font-family: $font-black
+	color: $cta-text-color
+
+#arrow
+	position: absolute
+	right: 0px
+	top: 0px
+	width: 8px
+	height: 10px
+	transform: translateY(-4px)
+	transition: all 200ms ease
+	img
+		width: 100%
+		height: 100%
+
+#restrictions
+	position: absolute
+	right: 3px
+	bottom: 3px
+	font-size: 6pt
+	font-family: $font-thin
+	color: $text-color-primary
+	z-index: 10
+	font-family: $font-medium
+
+#background
+	position: absolute
+	left: 153px
+	top: 0px
+	width: 147px
+	height: $banner-height
+	img
+		width: 100%
+		height: 100%
+
+#product
+	position: absolute
+	left: 123px
+	top: -4px
+	height: 57px
+	width: 57px
+	z-index: 200
+	img
+		width: 100%
+		height: 100%
+
+#blackborder
+	position: absolute
+	left: 0px
+	top: 0px
+	width: $banner-width - 2px
+	height: $banner-height - 2px
+	border: 1px solid #000
+	z-index: 5000

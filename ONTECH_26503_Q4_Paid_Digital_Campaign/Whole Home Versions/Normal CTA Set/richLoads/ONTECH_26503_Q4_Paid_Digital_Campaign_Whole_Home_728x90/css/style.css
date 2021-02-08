@@ -1,0 +1,162 @@
+body {
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #292938;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#blackborder {
+  position: absolute;
+  width: 726px;
+  height: 88px;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000;
+  z-index: 50000; }
+
+#container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  cursor: pointer; }
+  #container:hover {
+    cursor: pointer; }
+    #container:hover #arrow {
+      transform: translate(2px, -1.3px) scale(1.3); }
+
+#beacon {
+  position: absolute;
+  left: 17px;
+  top: 29px;
+  width: 32px;
+  height: 32px;
+  z-index: 20; }
+
+#logo {
+  position: absolute;
+  left: 55px;
+  top: 32px;
+  width: 94px;
+  height: 29px; }
+
+#google-logo {
+  position: absolute;
+  left: 16px;
+  top: 54px;
+  width: 78px;
+  height: 26px;
+  z-index: 3; }
+
+#rule {
+  position: absolute;
+  left: 17px;
+  top: 45px;
+  width: 28px;
+  height: 2px;
+  background: #D8D8D8; }
+
+#bg {
+  position: absolute;
+  left: 541px;
+  top: 0px;
+  width: 200px;
+  height: 90px;
+  background: #1793af;
+  background: -moz-linear-gradient(left, #1793af 0%, #4aaec8 100%);
+  background: -webkit-linear-gradient(left, #1793af 0%, #4aaec8 100%);
+  background: linear-gradient(to right, #1793af 0%, #4aaec8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1793af', endColorstr='#4aaec8',GradientType=1 );
+  z-index: 2; }
+
+.header {
+  position: absolute;
+  left: 193px;
+  top: 20px;
+  font-size: 24px;
+  line-height: 26px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #292938;
+  text-align: left;
+  z-index: 10; }
+
+.subhead {
+  position: absolute;
+  left: 193px;
+  top: 12px;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #292938;
+  text-align: left;
+  z-index: 10; }
+
+#google-screen {
+  position: absolute;
+  left: 499px;
+  top: -3px;
+  width: 164px;
+  height: 101px;
+  z-index: 10; }
+  #google-screen img {
+    width: 100%;
+    height: 100%; }
+
+.image-container {
+  position: absolute;
+  left: 486px;
+  top: 0px;
+  width: 154px;
+  height: 84px;
+  z-index: 10;
+  overflow: hidden; }
+  .image-container img {
+    width: 100%;
+    height: 100%; }
+
+#ontech-lady {
+  position: absolute;
+  left: -12px;
+  top: -25px;
+  width: 166px;
+  height: 111px;
+  z-index: 10; }
+  #ontech-lady img {
+    width: 100%;
+    height: 100%; }
+
+#cta-wrapper {
+  position: relative;
+  left: 193px;
+  top: 56px;
+  width: 98px;
+  height: 21px; }
+
+#cta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #002EF1; }
+
+#arrow {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  transition: all 200ms ease; }
+  #arrow img {
+    width: 100%;
+    height: 100%; }
+
+#restrictions {
+  position: absolute;
+  left: 651.5px;
+  top: 77px;
+  font-size: 8px;
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  color: #292938;
+  z-index: 10; }

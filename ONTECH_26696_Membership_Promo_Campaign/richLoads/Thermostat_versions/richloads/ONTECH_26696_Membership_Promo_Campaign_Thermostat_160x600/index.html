@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/fonts.css">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css">
+  <title>DCOM 160x600 Banner</title>
+</head>
+<!--content-->
+
+<body>
+  <ft-default id="container">
+    <div id="blackborder"></div>
+    <ft-dynamic name="text1" class="header" id="header"></ft-dynamic>
+    <ft-dynamic name="text2" class="subhead" id="subhead"></ft-dynamic>
+    <ft-dynamic name="text3" class="exclusive-text" id="exclusive-text"></ft-dynamic>
+    <ft-dynamic name="text4" class="save-text" id="save-text"></ft-dynamic>
+
+    <div id="rule"></div>
+    <ft-dynamic name="image1" id="beacon"></ft-dynamic>
+    <ft-dynamic name="image2" id="logo"></ft-dynamic>
+    <ft-dynamic name="image3" id="google-logo"></ft-dynamic>
+
+    <ft-dynamic name="image4" id="bg"></ft-dynamic>
+    <ft-dynamic name="image5" id="product"></ft-dynamic>
+    <div class="image-container">
+      <ft-dynamic name="image6" id="ontech-person"></ft-dynamic>
+    </div>
+
+
+    <div id="cta-wrapper">
+      <div id="cta-button">
+        <ft-dynamic name="text5" id="cta-text"></ft-dynamic>
+      </div>
+      <div id="cta-button-inset"></div>
+      <ft-dynamic name="text6" id="restrictions"></ft-dynamic>
+    </div>
+  </ft-default>
+
+
+  <!--scripts-->
+  <script src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"></script>
+  <script src="https://cdn.flashtalking.com/frameworks/js/jquery/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    myFT.on("instantads", function () {
+      //get the dynamic value, targeted by the name set in the manifest
+      var dynamicCT = myFT.instantAds.clickthrough_url;
+      var blackborder = myFT.$("#blackborder");
+      //apply the clickTag
+      myFT.applyClickTag(blackborder, 1, dynamicCT);
+    });
+  </script>
+</body>
+
+</html>

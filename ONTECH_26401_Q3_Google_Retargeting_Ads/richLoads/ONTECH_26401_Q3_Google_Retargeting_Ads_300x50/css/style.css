@@ -1,0 +1,145 @@
+body {
+  color: #454550;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
+
+#container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 50px;
+  background-color: #F5F5F6 !important;
+  z-index: 0; }
+  #container:hover {
+    cursor: pointer; }
+
+#background {
+  position: absolute;
+  width: 300px;
+  left: 0px;
+  top: 374px;
+  width: 160px;
+  height: 226px;
+  z-index: 1; }
+
+#beacon {
+  position: absolute;
+  left: 8px;
+  top: 16px;
+  width: 11px;
+  height: 16.13px;
+  z-index: 20; }
+
+#logo {
+  position: absolute;
+  left: 23px;
+  top: 18.75px;
+  width: 40px;
+  height: 16.13px; }
+
+#google-logo {
+  position: absolute;
+  left: 76px;
+  top: 16.88px;
+  width: 43px;
+  height: 17px; }
+  #google-logo img {
+    width: 100%;
+    height: 100%; }
+
+#divider {
+  position: absolute;
+  left: 69.16px;
+  top: 17px;
+  width: .5px;
+  height: 17px;
+  background-color: #B9B8BC; }
+
+#headline {
+  position: absolute;
+  left: 153px;
+  top: 8px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 17px; }
+
+#subhead {
+  position: absolute;
+  left: 152px;
+  top: 4px;
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 12px; }
+
+#container:visited #cta {
+  color: #0015EA; }
+
+#cta-wrapper {
+  position: relative;
+  left: 152px;
+  top: 34px;
+  width: 64px;
+  height: 12px; }
+
+#cta {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 10px;
+  font-family: "proximanova_extrabold", Helvetica, Arial, sans-serif;
+  color: #0015EA; }
+
+#arrow {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 8px;
+  height: 10px;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease; }
+  #arrow img {
+    width: 100%;
+    height: 100%; }
+
+#restrictions {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  font-size: 6pt;
+  font-family: "proximanova_thin", Helvetica, Arial, sans-serif;
+  color: #454550;
+  z-index: 10;
+  font-family: "proximanova_medium", Helvetica, Arial, sans-serif; }
+
+#background {
+  position: absolute;
+  left: 153px;
+  top: 0px;
+  width: 147px;
+  height: 50px; }
+  #background img {
+    width: 100%;
+    height: 100%; }
+
+#product {
+  position: absolute;
+  left: 123px;
+  top: -4px;
+  height: 57px;
+  width: 57px;
+  z-index: 200; }
+  #product img {
+    width: 100%;
+    height: 100%; }
+
+#blackborder {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 298px;
+  height: 48px;
+  border: 1px solid #000;
+  z-index: 5000; }
