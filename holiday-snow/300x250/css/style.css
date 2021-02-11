@@ -14,7 +14,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   overflow: hidden;
 }
 
@@ -83,12 +82,14 @@ body {
 #product-1 {
   position: absolute;
   bottom: -3px;
+  overflow: hidden;
 }
 
 #product-2 {
   position: absolute;
   bottom: 32px;
   right: 0px;
+  overflow: hidden;
 }
 
 #product-3 {
@@ -96,6 +97,7 @@ body {
   bottom: 61px;
   right: 32px;
   z-index: 1;
+  overflow: hidden;
 }
 
 #product-4 {
@@ -103,6 +105,7 @@ body {
   bottom: 32px;
   right: 3px;
   z-index: 5;
+  overflow: hidden;
 }
 
 #speech-command {
@@ -129,6 +132,7 @@ body {
   position: absolute;
   bottom: 77px;
   left: 0px;
+  overflow: hidden;
   z-index: 4;
 }
 
@@ -142,7 +146,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   z-index: 2;
 }
 
@@ -154,6 +157,7 @@ body {
   font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
   color: #000;
   text-align: left;
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
 }
@@ -167,7 +171,7 @@ body {
   border-radius: 25px;
   border: 1px solid #e1e1e1 !important;
   background-color: #f01446;
-  cursor: pointer;
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
 }
@@ -202,7 +206,6 @@ body {
   height: 62px;
   right: 0px;
   bottom: 0px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;

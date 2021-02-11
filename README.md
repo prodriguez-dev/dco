@@ -14,7 +14,7 @@ Dynamic creative advertisers can also automatically optimize ad creatives based 
 
 ![What is DCO image](https://prodriguez-dev.github.io/dco/images/what-is-dco.png)
 
-##  DISH Holiday-Snow
+## DISH Holiday-Snow
 
 The Goal was to create a Holiday Banner with Snow in the background created by code that looked random.
 
