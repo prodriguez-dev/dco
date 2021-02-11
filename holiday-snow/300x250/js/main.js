@@ -1,7 +1,5 @@
 // JavaScript Document
 
-TweenLite.set("#container")
-
 var container = document.getElementById("container"),
 	w = 130,
 	h = 350;
