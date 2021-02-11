@@ -1,8 +1,10 @@
 # What is DCO?
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_Creative_Optimization), the free encyclopedia
+DCO stands for Dynamic Creative Optimization, which can be used to easily create multiple versions of a banner on the fly, without the help of designers/developers.
 
->Dynamic creative optimization (DCO), is a form of programmatic advertising that allows advertisers to optimize the performance of their creative using real-time technology. While the actual optimization approaches may vary, they almost always involve the use of multivariate testing. The DCO process consists of creative development, identification of test variables, definition of the optimization objective, and method of optimization. It may include video, animation, native components, and interactive elements.
+This can be use to create an AB test, which will determine the combination of copy/images/placement that get the highest conversion rates.
+
+![What is DCO image](https://prodriguez-dev.github.io/dco/images/what-is-dco.png)
 
 ##  DISH Holiday-Snow
 
