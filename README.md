@@ -1,4 +1,4 @@
-# DCO - Dynamic Creative Optimization
+# What is DCO?
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_Creative_Optimization), the free encyclopedia
 
