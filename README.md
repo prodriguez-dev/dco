@@ -6,4 +6,6 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_Creative_Optimization), t
 
 ##  DISH Holiday-Snow
 
+The Goal was to create a Holiday Banner with Snow in the background created by code that looked random and unpredective.
+
 [300x250](https://prodriguez-dev.github.io/dco/holiday-snow/300x250/index.html)
