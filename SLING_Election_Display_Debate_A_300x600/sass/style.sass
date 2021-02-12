@@ -1,0 +1,150 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 600px
+$border-width: $banner-width - 2px
+$border-height: $banner-height - 2px
+$page-color: #ffffff
+$font-primary: 'brandon-text-black', Helvetica, Arial, sans-serif
+$text-color-primary: #ffffff
+$cta-text-color: #ffffff
+$cta-button-color: #FAA21B
+$cta-button-incet-color: #001E60
+
+body
+	font-family: $font-primary
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#blackborder
+	position: absolute
+	width: $border-width
+	height: $border-height
+	top: 0px
+	left: 0px
+	border: 1px solid #000
+	z-index: 50000
+
+#container
+	opacity: 0
+	transition: .5s
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	overflow: hidden
+	cursor: pointer
+	background: #10069F
+	&:hover
+		#cta-button
+			background-color: darken($cta-button-color, 10%)
+	&:active
+		#cta-button
+			background-color: darken($cta-button-color, 20%)
+			transform: translate(-2px, 2px)
+
+.header
+	position: absolute
+	left: 0
+	top: 138px
+	width: $banner-width
+	font-size: 36px
+	line-height: 40px
+	letter-spacing: -0.58px
+	font-family: $font-primary
+	color: $text-color-primary
+	text-align: center
+	z-index: 10
+
+$breakpoint-tablet: 640px
+@media (min-width: $breakpoint-tablet)
+	.header
+		font-size: 32px !important
+		line-height: 38px !important
+
+
+
+.yellow
+	color: #FFB300
+
+#sling-logo
+	position: absolute
+	left: 96px
+	top: 17px
+	width: 108.3px
+	height: 57px
+	z-index: 3
+
+// Logos
+#donkey
+	position: absolute
+	left: -159px
+	top: 381px
+	width: 262px
+	height: 286px
+	z-index: 3
+
+#elephant
+	position: absolute
+	left: 175px
+	top: 413px
+	width: 283px
+	height: 215px
+	z-index: 3
+
+//========= CTA & Logo  =========//
+$btn-left: 96px
+$btn-top: 322px
+$btn-width: 114px
+$btn-height: 36px
+
+#cta-wrapper
+	position: absolute
+	top: $btn-top
+	left: $btn-left
+	width: $btn-width
+	height: 32px + 7px
+	z-index: 5000
+
+#cta-button
+	position: absolute
+	top: 0
+	left: 0
+	width: $btn-width
+	height: 32px
+	border: 1px solid #001E60
+	background-color: $cta-button-color
+	z-index: 5002
+
+#cta-button-under
+	position: absolute
+	top: 3px
+	left: -2px
+	width: $btn-width
+	height: 32px
+	border-radius: 2px
+	z-index: 9
+	border: 1px solid #001E60
+	background-color: $cta-button-incet-color
+	z-index: 5001
+
+#cta-text
+	font-family: $font-primary
+	font-size: 14px
+	color: #001E60
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	width: 108px
+	text-align: center
+
+#restrictions
+	font-family: Arial, Helvetica, sans-serif
+	font-size: 10px
+	position: absolute
+	width: $btn-width
+	top: $btn-height + 1px
+	left: 2px
+	color: white
+	text-align: center

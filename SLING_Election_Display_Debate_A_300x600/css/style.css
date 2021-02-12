@@ -1,7 +1,8 @@
 body {
   font-family: "brandon-text-black", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased; }
+  -moz-font-smoothing: antialiased;
+}
 
 #blackborder {
   position: absolute;
@@ -10,12 +11,12 @@ body {
   top: 0px;
   left: 0px;
   border: 1px solid #000;
-  z-index: 50000; }
+  z-index: 50000;
+}
 
 #container {
   opacity: 0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
   position: absolute;
   width: 300px;
   height: 600px;
@@ -23,13 +24,15 @@ body {
   left: 0px;
   overflow: hidden;
   cursor: pointer;
-  background: #10069F; }
-  #container:hover #cta-button {
-    background-color: #dd8805; }
-  #container:active #cta-button {
-    background-color: #ab6904;
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px); }
+  background: #10069F;
+}
+#container:hover #cta-button {
+  background-color: #dd8805;
+}
+#container:active #cta-button {
+  background-color: #ab6904;
+  transform: translate(-2px, 2px);
+}
 
 .header {
   position: absolute;
@@ -42,10 +45,18 @@ body {
   font-family: "brandon-text-black", Helvetica, Arial, sans-serif;
   color: #ffffff;
   text-align: center;
-  z-index: 10; }
+  z-index: 10;
+}
 
+@media (min-width: 640px) {
+  .header {
+    font-size: 32px !important;
+    line-height: 38px !important;
+  }
+}
 .yellow {
-  color: #FFB300; }
+  color: #FFB300;
+}
 
 #sling-logo {
   position: absolute;
@@ -53,7 +64,8 @@ body {
   top: 17px;
   width: 108.3px;
   height: 57px;
-  z-index: 3; }
+  z-index: 3;
+}
 
 #donkey {
   position: absolute;
@@ -61,7 +73,8 @@ body {
   top: 381px;
   width: 262px;
   height: 286px;
-  z-index: 3; }
+  z-index: 3;
+}
 
 #elephant {
   position: absolute;
@@ -69,7 +82,8 @@ body {
   top: 413px;
   width: 283px;
   height: 215px;
-  z-index: 3; }
+  z-index: 3;
+}
 
 #cta-wrapper {
   position: absolute;
@@ -77,13 +91,7 @@ body {
   left: 96px;
   width: 114px;
   height: 39px;
-  z-index: 5000; }
-
-@media (max-width: 640px) {
-  .header {
-    font-size: 32px !important;
-    line-height: 38px !important;
-  }
+  z-index: 5000;
 }
 
 #cta-button {
@@ -94,7 +102,8 @@ body {
   height: 32px;
   border: 1px solid #001E60;
   background-color: #FAA21B;
-  z-index: 5002; }
+  z-index: 5002;
+}
 
 #cta-button-under {
   position: absolute;
@@ -106,7 +115,8 @@ body {
   z-index: 9;
   border: 1px solid #001E60;
   background-color: #001E60;
-  z-index: 5001; }
+  z-index: 5001;
+}
 
 #cta-text {
   font-family: "brandon-text-black", Helvetica, Arial, sans-serif;
@@ -115,10 +125,10 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 108px;
-  text-align: center; }
+  text-align: center;
+}
 
 #restrictions {
   font-family: Arial, Helvetica, sans-serif;
@@ -128,4 +138,5 @@ body {
   top: 37px;
   left: 2px;
   color: white;
-  text-align: center; }
+  text-align: center;
+}
