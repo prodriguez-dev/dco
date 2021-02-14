@@ -21,3 +21,5 @@ The Goal was to create a Holiday Banner with Snow in the background created by c
 [300x250](https://prodriguez-dev.github.io/dco/holiday-snow/300x250/index.html)
 
 ## Sling Election Display Debate
+
+[300x600]
