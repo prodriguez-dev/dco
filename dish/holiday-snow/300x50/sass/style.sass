@@ -1,0 +1,196 @@
+//custom variables
+$banner-width: 300px
+$banner-height: 50px
+$bg-color: #e1e1e1 !important
+$font-primary: 'proximanova_bold', Helvetica, Arial, sans-serif
+$font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
+$font-tertiary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
+$font-quaternary: 'proximanova_italic', Helvetica, Arial, sans-serif
+$text-color-primary: #f01446
+$text-color-secondary: #000
+$cta-text-color: #fff
+$button-background: #f01446
+$small-flakes-width: 5px
+$medium-flakes-smaller-width: 15px
+$medium-flakes-width: 20px
+$medium-flakes-bigger-width: 32px
+
+body
+	font-family: $font-primary
+	color: $text-color-primary
+	background-color: $bg-color
+
+#container
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	background-color: $bg-color
+	display: flex
+	justify-content: center
+	align-items: center
+
+#background
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	z-index: 0
+
+#top
+	position: absolute
+	width: $banner-width
+	height: $banner-height
+	top: 0px
+	left: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: 5
+
+#logo
+	position: absolute
+	left: 10px
+	width: 44px
+
+#headline-1
+	position: absolute
+	width: 150px
+	left: 67px
+	font-size: 16px
+	line-height: 17px
+	letter-spacing: 0.3px
+	font-family: $font-primary
+	color: $text-color-secondary
+	text-align: center
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#headline-2
+	position: absolute
+	width: 173px
+	left: 61px
+	font-size: 15px
+	line-height: 16px
+	letter-spacing: 0.3px
+	font-family: $font-primary
+	color: $text-color-secondary
+	text-align: center
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#product-1
+	position: absolute
+	right: 70px
+	bottom: -3px
+
+#offer
+	position: absolute
+	width: 153px
+	left: 56px
+	font-size: 15px
+	line-height: 16px
+	letter-spacing: 0.3px
+	font-family: $font-primary
+	color: $text-color-secondary
+	text-align: center
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#cta-button
+	position: absolute
+	bottom: 15px
+	font-size: 11px
+	font-family: $font-tertiary
+	color: $cta-text-color
+	padding: 7px 14px 6px
+	border-radius: 25px
+	border: 1px solid $bg-color
+	background-color: $button-background
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#cta-button:visited
+	background-color: $button-background
+
+#cta-button:hover
+	background-color: #cc113c
+
+#cta-button:active
+	background-color: #9c0d2e
+
+#container:visited #cta-button
+	background-color: $button-background
+
+#container:hover #cta-button
+	background-color: #cc113c
+
+#container:active #cta-button
+	background-color: #9c0d2e
+
+#cta-wrapper
+	position: absolute
+	width: 96px
+	height: 50px
+	right: 0px
+	display: flex
+	justify-content: center
+	align-items: center
+
+#restrictions
+	position: absolute
+	bottom: 4px
+	font-size: 7pt
+	font-family: $font-secondary
+	color: $text-color-secondary
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
+#blackborder
+	position: absolute
+	width: 298px
+	height: 48px
+	border: 1px solid #000
+	z-index: 50000
+
+.small-flakes
+	position: absolute
+	width: $small-flakes-width
+	height: $small-flakes-width
+	opacity: .3
+	background: url(../images/snowflake-small.svg)
+	background-size: 100% 100%
+	filter: blur(.85px)
+
+.medium-flakes-1
+	position: absolute
+	width: $medium-flakes-width
+	height: $medium-flakes-width
+	opacity: .5
+	background: url(../images/snowflake-medium-1.svg)
+	background-size: 100% 100%
+
+.medium-flakes-2
+	position: absolute
+	width: $medium-flakes-bigger-width
+	height: $medium-flakes-bigger-width
+	opacity: .35
+	background: url(../images/snowflake-medium-2.svg)
+	background-size: 100% 100%
+
+.medium-flakes-3
+	position: absolute
+	width: $medium-flakes-smaller-width
+	height: $medium-flakes-smaller-width
+	opacity: .45
+	background: url(../images/snowflake-medium-3.svg)
+	background-size: 100% 100%
+
+.large-flakes
+	position: absolute
+	width: 137px
+	height: 134px
+	background: url(../images/snowflake-large.png)
+	background-size: 100% 100%
