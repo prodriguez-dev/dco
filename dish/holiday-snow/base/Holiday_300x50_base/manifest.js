@@ -5,14 +5,14 @@ FT.manifest({
         "clickTagCount": 1,
         "hideBrowsers": ["ie8"],
         "richLoads": [{
-                "name": "dRichload", "src": "DIG_23658_Holiday_300x50"
+                "name": "dRichload", "src": "Holiday_300x50"
         }
         ],
         "instantAds": [
                 { "name": "dRichload", "type": "richLoad" },
                 { "name": "image1", "type": "image", "default": "uploaded_images/dish-logo-red.svg" },
-                { "name": "image2", "type": "image", "default": "uploaded_images/DIG_23658_300x50_product-1.png" },
-                { "name": "image3", "type": "image", "default": "uploaded_images/DIG_23658_300x50_bg.jpg" },
+                { "name": "image2", "type": "image", "default": "uploaded_images/300x50_product-1.png" },
+                { "name": "image3", "type": "image", "default": "uploaded_images/300x50_bg.jpg" },
                 { "name": "image4", "type": "image", "default": "uploaded_images/blank.png" },
                 { "name": "image5", "type": "image", "default": "uploaded_images/blank.png" },
                 { "name": "image6", "type": "image", "default": "uploaded_images/blank.png" },

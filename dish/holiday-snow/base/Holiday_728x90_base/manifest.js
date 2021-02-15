@@ -5,17 +5,17 @@ FT.manifest({
         "clickTagCount": 1,
         "hideBrowsers": ["ie8"],
         "richLoads": [{
-                "name": "dRichload", "src": "DIG_23658_Holiday_728x90_tv"
+                "name": "dRichload", "src": "Holiday_728x90_tv"
         }
         ],
         "instantAds": [
                 { "name": "dRichload", "type": "richLoad" },
                 { "name": "image1", "type": "image", "default": "uploaded_images/dish-logo-red.svg" },
-                { "name": "image2", "type": "image", "default": "uploaded_images/DIG_23658_728x90_tv.jpg" },
-                { "name": "image3", "type": "image", "default": "uploaded_images/DIG_23658_728x90_product-3.png" },
-                { "name": "image4", "type": "image", "default": "uploaded_images/DIG_23658_728x90_speech-bubble.png" },
-                { "name": "image5", "type": "image", "default": "uploaded_images/DIG_23658_728x90_bg.jpg" },
-                { "name": "image6", "type": "image", "default": "uploaded_images/DIG_23658_728x90_product-4.png" },
+                { "name": "image2", "type": "image", "default": "uploaded_images/728x90_tv.jpg" },
+                { "name": "image3", "type": "image", "default": "uploaded_images/728x90_product-3.png" },
+                { "name": "image4", "type": "image", "default": "uploaded_images/728x90_speech-bubble.png" },
+                { "name": "image5", "type": "image", "default": "uploaded_images/728x90_bg.jpg" },
+                { "name": "image6", "type": "image", "default": "uploaded_images/728x90_product-4.png" },
                 { "name": "image7", "type": "image", "default": "uploaded_images/blank.png" },
                 { "name": "image8", "type": "image", "default": "uploaded_images/blank.png" },
                 { "name": "image9", "type": "image", "default": "uploaded_images/blank.png" },
