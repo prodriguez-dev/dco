@@ -22,7 +22,6 @@ body
 	-webkit-font-smoothing: antialiased
 	-moz-font-smoothing: antialiased
 
-
 #container
 	position: absolute
 	width: $banner-width
@@ -52,7 +51,6 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
-	overflow: hidden
 	z-index: 5
 
 #logo
@@ -91,27 +89,23 @@ body
 #product-1
 	position: absolute
 	bottom: -3px
-	overflow: hidden
 
 #product-2
 	position: absolute
 	bottom: 32px
 	right: 0px
-	overflow: hidden
 
 #product-3
 	position: absolute
 	bottom: 61px
 	right: 32px
 	z-index: 1
-	overflow: hidden
 
 #product-4
 	position: absolute
 	bottom: 32px
 	right: 3px
 	z-index: 5
-	overflow: hidden
 
 #speech-command
 	position: absolute
@@ -120,21 +114,24 @@ body
 	bottom: 112px
 	left: 15px
 	font-size: 15px
-	line-height: 21px
+	line-height: 1.2em
 	letter-spacing: 0.2px
 	font-family: $font-quaternary
 	color: $cta-text-color
 	text-align: center
-	overflow: hidden
 	display: flex
 	justify-content: center
 	align-items: center
+
+$breakpoint-tablet: 640px
+@media (min-width: $breakpoint-tablet)
+	#speech-command
+		font-size: 14px !important
 
 #speech-bubble
 	position: absolute
 	bottom: 77px
 	left: 0px
-	overflow: hidden
 	z-index: 4
 
 #text-wrapper
@@ -143,7 +140,6 @@ body
 	height: 65px
 	bottom: 0px
 	background-color: $cta-text-color
-	overflow: hidden
 	display: flex
 	justify-content: center
 	align-items: center
@@ -157,7 +153,6 @@ body
 	font-family: $font-primary
 	color: $text-color-secondary
 	text-align: left
-	overflow: hidden
 
 #cta-button
 	position: absolute
@@ -168,7 +163,6 @@ body
 	border-radius: 25px
 	border: 1px solid $bg-color
 	background-color: $button-background
-	overflow: hidden
 
 #cta-button:visited
 	background-color: $button-background

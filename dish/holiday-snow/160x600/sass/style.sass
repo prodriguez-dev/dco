@@ -19,6 +19,8 @@ body
 	font-family: $font-primary
 	color: $text-color-primary
 	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
 
 #container
 	position: absolute
@@ -49,7 +51,6 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
-	overflow: hidden
 	z-index: 5
 
 #logo
@@ -88,18 +89,15 @@ body
 #product-1
 	position: absolute
 	bottom: -3px
-	overflow: hidden
 
 #product-2
 	position: absolute
 	bottom: 140px
 	right: 0px
-	overflow: hidden
 
 #product-3
 	position: absolute
 	bottom: 230px
-	overflow: hidden
 	z-index: 1
 
 #speech-command
@@ -108,7 +106,7 @@ body
 	height: 34px
 	top: 330px
 	font-size: 15px
-	line-height: 21px
+	line-height: 1.2em
 	letter-spacing: 0.2px
 	font-family: $font-quaternary
 	color: $cta-text-color
@@ -116,8 +114,11 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
+
+$breakpoint-tablet: 640px
+@media (min-width: $breakpoint-tablet)
+	#speech-command
+		font-size: 14px !important
 
 #speech-bubble
 	position: absolute

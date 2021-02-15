@@ -37,7 +37,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   z-index: 5;
 }
 
@@ -80,14 +79,12 @@ body {
 #product-1 {
   position: absolute;
   bottom: -3px;
-  overflow: hidden;
 }
 
 #product-2 {
   position: absolute;
   bottom: 32px;
   right: 0px;
-  overflow: hidden;
 }
 
 #product-3 {
@@ -95,7 +92,6 @@ body {
   bottom: 61px;
   right: 32px;
   z-index: 1;
-  overflow: hidden;
 }
 
 #product-4 {
@@ -103,7 +99,6 @@ body {
   bottom: 32px;
   right: 3px;
   z-index: 5;
-  overflow: hidden;
 }
 
 #speech-command {
@@ -113,22 +108,25 @@ body {
   bottom: 112px;
   left: 15px;
   font-size: 15px;
-  line-height: 21px;
+  line-height: 1.2em;
   letter-spacing: 0.2px;
   font-family: "proximanova_italic", Helvetica, Arial, sans-serif;
   color: #fff;
   text-align: center;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+@media (min-width: 640px) {
+  #speech-command {
+    font-size: 14px !important;
+  }
+}
 #speech-bubble {
   position: absolute;
   bottom: 77px;
   left: 0px;
-  overflow: hidden;
   z-index: 4;
 }
 
@@ -138,7 +136,6 @@ body {
   height: 65px;
   bottom: 0px;
   background-color: #fff;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,7 +150,6 @@ body {
   font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
   color: #000;
   text-align: left;
-  overflow: hidden;
 }
 
 #cta-button {
@@ -165,7 +161,6 @@ body {
   border-radius: 25px;
   border: 1px solid #121212;
   background-color: #f01446;
-  overflow: hidden;
 }
 
 #cta-button:visited {

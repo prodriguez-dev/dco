@@ -2,6 +2,8 @@ body {
   font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
   color: #f01446;
   background-color: #121212;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
 }
 
 #container {
@@ -35,7 +37,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   z-index: 5;
 }
 
@@ -78,20 +79,17 @@ body {
 #product-1 {
   position: absolute;
   bottom: -3px;
-  overflow: hidden;
 }
 
 #product-2 {
   position: absolute;
   bottom: 140px;
   right: 0px;
-  overflow: hidden;
 }
 
 #product-3 {
   position: absolute;
   bottom: 230px;
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -101,7 +99,7 @@ body {
   height: 34px;
   top: 330px;
   font-size: 15px;
-  line-height: 21px;
+  line-height: 1.2em;
   letter-spacing: 0.2px;
   font-family: "proximanova_italic", Helvetica, Arial, sans-serif;
   color: #fff;
@@ -109,10 +107,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
+@media (min-width: 640px) {
+  #speech-command {
+    font-size: 14px !important;
+  }
+}
 #speech-bubble {
   position: absolute;
   bottom: 203px;
