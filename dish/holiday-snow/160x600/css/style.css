@@ -1,7 +1,7 @@
 body {
   font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
   color: #f01446;
-  background-color: #e1e1e1 !important;
+  background-color: #121212;
 }
 
 #container {
@@ -10,10 +10,11 @@ body {
   height: 600px;
   top: 0px;
   left: 0px;
-  background-color: #e1e1e1 !important;
+  background-color: #121212;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 #background {
@@ -34,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   z-index: 5;
 }
 
@@ -56,8 +58,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #headline-2 {
@@ -73,24 +73,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #product-1 {
   position: absolute;
   bottom: -3px;
+  overflow: hidden;
 }
 
 #product-2 {
   position: absolute;
   bottom: 140px;
   right: 0px;
+  overflow: hidden;
 }
 
 #product-3 {
   position: absolute;
   bottom: 230px;
+  overflow: hidden;
   z-index: 1;
 }
 
@@ -136,8 +137,6 @@ body {
   font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
   color: #000;
   text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #cta-button {
@@ -148,10 +147,8 @@ body {
   color: #fff;
   padding: 9px 25px 8px;
   border-radius: 25px;
-  border: 1px solid #e1e1e1 !important;
+  border: 1px solid #121212;
   background-color: #f01446;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #cta-button:visited {
@@ -194,8 +191,6 @@ body {
   font-size: 8pt;
   font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
   color: #000;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #blackborder {

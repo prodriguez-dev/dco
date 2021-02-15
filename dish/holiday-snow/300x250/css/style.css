@@ -2,6 +2,8 @@ body {
   font-family: "proximanova_bold", Helvetica, Arial, sans-serif;
   color: #f01446;
   background-color: #121212;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
 }
 
 #container {
@@ -10,7 +12,7 @@ body {
   height: 250px;
   top: 0px;
   left: 0px;
-  background-color: #e1e1e1;
+  background-color: #121212;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,9 +35,9 @@ body {
   top: 0px;
   left: 0px;
   display: flex;
-  overflow: hidden;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   z-index: 5;
 }
 
@@ -58,8 +60,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #headline-2 {
@@ -75,8 +75,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #product-1 {
@@ -124,8 +122,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #speech-bubble {
@@ -158,8 +154,6 @@ body {
   color: #000;
   text-align: left;
   overflow: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #cta-button {
@@ -169,11 +163,9 @@ body {
   color: #fff;
   padding: 8px 24px 7px;
   border-radius: 25px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #121212;
   background-color: #f01446;
   overflow: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #cta-button:visited {
@@ -219,8 +211,6 @@ body {
   font-family: "proximanova_regular", Helvetica, Arial, sans-serif;
   color: #000;
   text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
 }
 
 #blackborder {

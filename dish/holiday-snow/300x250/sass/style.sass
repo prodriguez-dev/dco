@@ -1,7 +1,7 @@
 //custom variables
 $banner-width: 300px
 $banner-height: 250px
-$bg-color: #e1e1e1
+$bg-color: #121212
 $font-primary: 'proximanova_bold', Helvetica, Arial, sans-serif
 $font-secondary: 'proximanova_regular', Helvetica, Arial, sans-serif
 $font-tertiary: 'proximanova_extrabold', Helvetica, Arial, sans-serif
@@ -18,7 +18,10 @@ $medium-flakes-bigger-width: 32px
 body
 	font-family: $font-primary
 	color: $text-color-primary
-	background-color: #121212
+	background-color: $bg-color
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+
 
 #container
 	position: absolute
@@ -47,9 +50,9 @@ body
 	top: 0px
 	left: 0px
 	display: flex
-	overflow: hidden
 	justify-content: center
 	align-items: center
+	overflow: hidden
 	z-index: 5
 
 #logo
@@ -70,8 +73,6 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
 
 #headline-2
 	position: absolute
@@ -86,8 +87,6 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
 
 #product-1
 	position: absolute
@@ -130,8 +129,6 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
 
 #speech-bubble
 	position: absolute
@@ -161,8 +158,6 @@ body
 	color: $text-color-secondary
 	text-align: left
 	overflow: hidden
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
 
 #cta-button
 	position: absolute
@@ -174,8 +169,6 @@ body
 	border: 1px solid $bg-color
 	background-color: $button-background
 	overflow: hidden
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
 
 #cta-button:visited
 	background-color: $button-background
@@ -213,8 +206,6 @@ body
 	font-family: $font-secondary
 	color: $text-color-secondary
 	text-align: center
-	-webkit-font-smoothing: antialiased
-	-moz-font-smoothing: antialiased
 
 #blackborder
 	position: absolute
