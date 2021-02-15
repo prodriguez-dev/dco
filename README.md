@@ -18,8 +18,8 @@ Dynamic creative advertisers can also automatically optimize ad creatives based 
 
 The Goal was to create a Holiday Banner with Snow in the background created by code that looked random.
 
-[300x250](https://prodriguez-dev.github.io/dco/holiday-snow/300x250/index.html)
+[300x250](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x250/index.html)
 
 ## Sling Election Display Debate
 
-[300x600](https://prodriguez-dev.github.io/dco/SLING_Election_Display_Debate_A_300x600/index.html)
+[300x600](https://prodriguez-dev.github.io/dco/sling/SLING_Election_Display_Debate_A_300x600/index.htm)
