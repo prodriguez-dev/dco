@@ -12,15 +12,15 @@ This above list is not exhaustive. Practically any data source can be connected 
 
 The Goal was to create a Holiday Banner with Snow in the background created by code that looked random.
 
-Desktop
-* [160x600](https://prodriguez-dev.github.io/dco/dish/holiday-snow/160x600/index.html)
-* [300x250](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x250/index.html)
-* [300x600](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x600/index.html)
-* [728x90](https://prodriguez-dev.github.io/dco/dish/holiday-snow/728x90/index.html)
+Desktop Banners:
+[[160x600](https://prodriguez-dev.github.io/dco/dish/holiday-snow/160x600/index.html)]
+[[300x250](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x250/index.html)]
+[[300x600](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x600/index.html)]
+[[728x90](https://prodriguez-dev.github.io/dco/dish/holiday-snow/728x90/index.html)]
 
-Mobile
-* [300x50](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x50/index.html)
-* [320x50](https://prodriguez-dev.github.io/dco/dish/holiday-snow/320x50/index.html)
+Mobile Banners:
+[[300x50](https://prodriguez-dev.github.io/dco/dish/holiday-snow/300x50/index.html)]
+[[320x50](https://prodriguez-dev.github.io/dco/dish/holiday-snow/320x50/index.html)]
 
 
 ## Sling Election Display Debate
