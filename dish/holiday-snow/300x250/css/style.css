@@ -17,6 +17,13 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  cursor: pointer;
+}
+#container:hover #cta-button {
+  background-color: #c40d36;
+}
+#container:active #cta-button {
+  background-color: #950929;
 }
 
 #background {
@@ -161,30 +168,6 @@ body {
   border-radius: 25px;
   border: 1px solid #e1e1e1;
   background-color: #f01446;
-}
-
-#cta-button:visited {
-  background-color: #f01446;
-}
-
-#cta-button:hover {
-  background-color: #cc113c;
-}
-
-#cta-button:active {
-  background-color: #9c0d2e;
-}
-
-#container:visited #cta-button {
-  background-color: #f01446;
-}
-
-#container:hover #cta-button {
-  background-color: #cc113c;
-}
-
-#container:active #cta-button {
-  background-color: #9c0d2e;
 }
 
 #cta-wrapper {
